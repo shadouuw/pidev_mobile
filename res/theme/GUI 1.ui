@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<component type="Form" name="GUI 1" cloudDestinationProperty="GUI 1" >
+  <component type="Button" name="Button" cloudDestinationProperty="Button" text="Button" >
+  </component>
+  <component type="AutoCompleteTextField" name="AutoCompleteTextField" cloudBoundProperty="text" cloudDestinationProperty="AutoCompleteTextField" uiid="Form1" text="" >
+  </component>
+  <component type="Tabs" name="Tabs1" cloudDestinationProperty="Tabs1" >
+  </component>
+  <component type="ComponentGroup" name="ComponentGroup" cloudDestinationProperty="ComponentGroup" >
+  </component>
+  <component type="Tabs" name="Tabs3" cloudDestinationProperty="Tabs3" >
+  </component>
+  <component type="Tabs" name="Tabs" cloudDestinationProperty="Tabs" >
+  </component>
+  <component type="Tabs" name="Tabs2" cloudDestinationProperty="Tabs2" >
+  </component>
+  <component type="Table" name="Table" cloudDestinationProperty="Table" uiid="Table1" snapToGrid="true" flatten="false" >
+    <custom name="header" type="java.lang.String" array="true" dimensions="1" >
+      <str>Col1</str>
+      <str>Col2</str>
+    </custom>
+  </component>
+  <component type="MultiList" name="MultiList" cloudDestinationProperty="MultiList" uiid="SmallFontLabel" >
+    <mapItems>
+      <stringItem key="Line2" value="more..." />
+      <stringItem key="Line1" value="Entry 1" />
+    </mapItems>
+    <mapItems>
+      <stringItem key="Line2" value="more..." />
+      <stringItem key="Line1" value="Entry 2" />
+    </mapItems>
+    <mapItems>
+      <stringItem key="Line2" value="more..." />
+      <stringItem key="Line1" value="Entry 3" />
+    </mapItems>
+  </component>
+  <component type="SpanLabel" name="SpanLabel" cloudDestinationProperty="SpanLabel" >
+  </component>
+  <component type="SpanLabel" name="SpanLabel1" cloudDestinationProperty="SpanLabel1" >
+  </component>
+  <component type="SpanLabel" name="SpanLabel2" cloudDestinationProperty="SpanLabel2" >
+  </component>
+  <component type="SpanLabel" name="SpanLabel3" cloudDestinationProperty="SpanLabel3" >
+  </component>
+  <component type="SpanLabel" name="SpanLabel4" cloudDestinationProperty="SpanLabel4" >
+  </component>
+  <component type="Label" name="Label" cloudDestinationProperty="Label" uiid="Label1" text="Label" >
+  </component>
+</component>
